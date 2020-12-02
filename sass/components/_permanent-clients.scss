@@ -3,6 +3,10 @@
   padding-bottom: 60px;
   background-color: $primaryBgColor;
 
+  @media screen and (max-width: 767px) {
+    width: 450px;
+  }
+
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;

@@ -101,6 +101,13 @@ ul {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .container-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container-header {
     display: flex;
@@ -536,6 +543,12 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
