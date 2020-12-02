@@ -1,0 +1,50 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    background-color: pink;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    outline: red 1px solid;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+
+  &-header {
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &-footer {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+  }
+}
+
+.tablet-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.tablet-container {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-left: 61px;
+    padding-right: 74px;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}

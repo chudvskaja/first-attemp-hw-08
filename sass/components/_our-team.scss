@@ -1,0 +1,23 @@
+.our-team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f5f4fa;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.our-team-title {
+  color: $titleTextColor;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.6;
+  }
+}

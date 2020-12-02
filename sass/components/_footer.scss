@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $secondaryBgColor;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.contacts {
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+
+.join-us {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 12px;
+    padding-bottom: 40px;
+  }
+}

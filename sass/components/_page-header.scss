@@ -1,0 +1,18 @@
+.page-header {
+  background-color: $primaryBgColor;
+
+  li {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  .auth-nav-link {
+    @media screen and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: 1.17;
+    }
+  }
+}
